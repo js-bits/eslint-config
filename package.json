@@ -1,0 +1,7 @@
+{
+  "name": "@js-bits/eslint-config",
+  "description": "Custom ESLint configuration",
+  "version": "0.0.2",
+  "main": ".eslintrc.json",
+  "license": "ISC"
+}
