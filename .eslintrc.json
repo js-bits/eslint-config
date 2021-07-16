@@ -30,7 +30,9 @@
         "message": "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
       }
     ],
-    "import/extensions": ["error", "always"]
+    "import/extensions": ["error", "always"],
+    "jsx-a11y/click-events-have-key-events": "warn",
+    "jsx-a11y/no-noninteractive-element-interactions": "warn"
   },
   "env": {
     "browser": true,
