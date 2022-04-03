@@ -5,13 +5,12 @@
   "parserOptions": {
     "requireConfigFile": false,
     "babelOptions": {
-      "presets": [
-        "@babel/preset-react"
-      ]
+      "presets": ["@babel/preset-react"]
     }
   },
   "rules": {
     "prettier/prettier": ["error"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": false, "avoidEscape": true }],
     "import/no-extraneous-dependencies": "warn",
     "import/prefer-default-export": "warn",
     "no-use-before-define": "warn",
