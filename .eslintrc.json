@@ -28,9 +28,14 @@
   },
   "rules": {
     "prettier/prettier": ["error"],
-    "quotes": ["error", "single", { "allowTemplateLiterals": false, "avoidEscape": true }],
+    "quotes": [
+      "error",
+      "single",
+      { "allowTemplateLiterals": false, "avoidEscape": true }
+    ],
     "import/no-extraneous-dependencies": "warn",
     "import/prefer-default-export": "warn",
+    "no-constructor-return": "warn",
     "no-use-before-define": "warn",
     "no-param-reassign": "warn",
     "no-unused-vars": "warn",
