@@ -2,6 +2,24 @@
   "extends": ["airbnb", "prettier"],
   "plugins": ["prettier"],
   "parser": "@babel/eslint-parser",
+  "overrides": [
+    {
+      // for files matching this pattern
+      "files": ["*.ts"],
+      "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "plugins": ["@typescript-eslint"],
+      // following config will override "normal" config
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        // override parser options
+      },
+      "rules": {}
+    }
+  ],
   "parserOptions": {
     "requireConfigFile": false,
     "babelOptions": {
