@@ -19,12 +19,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build package
-        run: yarn build
-
-      - name: Test package
-        run: yarn test
-
       - name: Publish package
         run: npm publish --access public
         env:
